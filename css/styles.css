@@ -1,0 +1,99 @@
+/****************TAG SELECTORS*************/
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding: 200px;
+  width: 1440px;
+  font-size: 15px;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+/****************CLASSS AND ID SELECTORS*********/
+.inside {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  position: absolute;
+  top: 125px;
+  height: 350px;
+}
+
+.left-part {
+  background-color: hsl(244, 38%, 16%);
+  margin-bottom: 4px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-left: 55px;
+  padding-right: 120px;
+  padding-top: 40px;
+}
+
+.img {
+  filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 90%;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.insights {
+  color: hsl(277, 64%, 61%);
+}
+
+.p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  line-height: 1.5;
+  font-size: 12px;
+  width: 90%;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.stats {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 10px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.first {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+.second {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+.third {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+#one {
+  margin-right: 50px;
+}
+
+#two {
+  margin-right: 50px;
+}
